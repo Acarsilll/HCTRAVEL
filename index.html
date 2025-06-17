@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Wilbert - Planeje sua Viagem</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <header>
+    <div class="logo">HC</div>
+    <nav>
+      <ul>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#destinos">Destinos</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="sobre" id="sobre">
+    <h1>Planeje a sua viagem com o Hilbert!</h1>
+    <div class="bio">
+      <img src="Fotos/Imagem WhatsApp 2025-06-08 às 00.21.26_6257101f.jpg" alt="Foto do Hilbert" />
+      <div class="texto">
+        <p>Sou um brasileiro apaixonado por viagens e moro em Portugal. Vamos conversar sobre sua próxima aventura!</p>
+        <div class="redes-sociais">
+          <a href="https://www.instagram.com/hilbertcampos.dicasdeportugal?igsh=NzZyNWl2eWRkZXRy"><img src="https://img.icons8.com/ios-glyphs/30/instagram-new.png" alt="Instagram"/></a>
+          <a href="https://www.facebook.com/share/1BbWJjPniz/?mibextid=wwXIfr"><img src="https://img.icons8.com/ios-glyphs/30/facebook-new.png" alt="Facebook"/></a>
+          <a href="#contato"><img src="https://img.icons8.com/ios-glyphs/30/new-post.png" alt="Email"/></a>
+          <a href="https://wa.me/351912345678" target="_blank"><img src="https://img.icons8.com/ios-glyphs/30/whatsapp.png" alt="WhatsApp"/></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="destinos" id="destinos">
+    <h2>Viagens organizadas por HC Travel</h2>
+    <div class="pacotes">
+      <div class="pacote">
+        <img src="Fotos/Lisboa.webp" alt="Vista de Lisboa">
+        <h3>Lisboa</h3>
+        <p>Encante-se com os charmosos bairros históricos e o rio Tejo sereno — charme europeu ao seu alcance.</p>
+      </div>
+      <div class="pacote">
+        <img src="Fotos/Paris.jpg" alt="Vista de Paris">
+        <h3>Paris</h3>
+        <p>Descubra a Cidade Luz: arte, cultura e gastronomia na capital do romance.</p>
+      </div>
+      <div class="pacote">
+        <img src="Fotos/Roma.jpg" alt="Vista de Roma">
+        <h3>Roma</h3>
+        <p>Explore a beleza milenar de Roma: história, arquitetura clássica e sabores autênticos.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="contato" id="contato">
+    <h2>Contato</h2>
+    <p>Fale comigo pelo WhatsApp, Instagram ou envie um e-mail.</p>
+
+    <div class="form-wrapper">
+      <form action="https://formsubmit.co/hilbert.campos@hotmail.com" method="POST" class="contact-form">
+        <label for="name">Nome:</label>
+        <input type="text" id="name" name="name" required>
+        
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" required>
+      
+        <label for="phone">Telefone:</label>
+        <input type="tel" id="phone" name="telefone">
+      
+        <label for="mensagem">Mensagem:</label>
+        <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+      
+        <!-- Configurações extras -->
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_next" value="https://SEUSITE.github.io/obrigado.html">
+      
+        <button type="submit">Enviar</button>
+      </form>
+  </div>    
+  </section>
+
+</body>
+</html>
